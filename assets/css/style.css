@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/*this is our first body*/
 body {
     background-color: #d9dcd6;
 }
-
+/* This is the Header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* This is where we see the hero section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -68,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*aside*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* the benfits of the brand section starts here*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -142,7 +142,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* This is where we see the images for online reputation*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +151,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* This is where we come across the image for the social media aspect of this websie*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* This is the footer*/
 .footer {
     padding: 30px;
     clear: both;
